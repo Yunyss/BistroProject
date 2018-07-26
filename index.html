@@ -5,6 +5,22 @@
 body {
     font-family: "Lato", sans-serif;
 }
+#img1 {
+    width: 100%;
+}
+#img7 {
+    width: 10%;
+} 
+#img8 {
+    width: 10%;
+}
+#img9 {
+    width: 10%
+}
+.sidebyside {
+    width: 49.8%;
+    height: 56%;
+}
 #top{
     position: fixed;
     top: 0px;
@@ -134,12 +150,21 @@ body {
     <h2>"Eat Here Or Be Square"</h2></center>
     </div>
     <div>
-      <img id="img1" src="images/main_background2.jpg" width="1422" height="700">
-      <img id="img2" src="https://www.daringgourmet.com/wp-content/uploads/2015/12/Fettuccine-Alfredo-5.jpg" width="709" height="500">
-      <img id="img3" src="https://media4.s-nbcnews.com/j/MSNBC/Components/Video/201802/tdy_pop_klg_steak_180215_1920x1080.today-inline-vid-featured-desktop.jpg" width="709" height="500">
-      <img id="img4" src="https://biltmore.s3.amazonaws.com/976/shop-wines-fb.jpg" width="709" height="500">
-      <img id="img5" src="https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2017/04/gord21.jpg?strip=all&w=960&quality=100" width="709" height="500">
+      <img id="img1" src="images/main_background2.jpg">
+      <img class="sidebyside" id="img2" src="https://www.daringgourmet.com/wp-content/uploads/2015/12/Fettuccine-Alfredo-5.jpg">
+      <img class="sidebyside" id="img3" src="https://media4.s-nbcnews.com/j/MSNBC/Components/Video/201802/tdy_pop_klg_steak_180215_1920x1080.today-inline-vid-featured-desktop.jpg">
+      <img class="sidebyside" id="img4" src="https://biltmore.s3.amazonaws.com/976/shop-wines-fb.jpg">
+      <img class="sidebyside" id="img5" src="https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2017/04/gord21.jpg?strip=all&w=960&quality=100">
     </div>
+    <div>
+	   <h2><center>Owners:</center></h2> 
+	   <center><br> Stefan Orduna-Momcilovic </br>
+	   <img id="img7" alt="Stefan" src="images/Stefan Orduna Headshot.jpg"></center>
+	   <center> <br> Alonzo Rodriguez </br>
+	   <br><img id="img9" alt="Alonzo" src="images/image1.jpeg"></center></br>
+	   <center><br> Eunice Njuguna </br>
+	   <img id="img8" alt="Eunice" src="images/IMG-20180520-WA0012.jpg"></center>
+	</div>
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
